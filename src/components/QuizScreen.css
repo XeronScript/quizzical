@@ -1,0 +1,29 @@
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+
+    background-color: #4D5B9E;
+    color: white;
+    font-family: "Karla", sans-serif;
+    font-size: 1.1rem;
+
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn:hover {
+    cursor: pointer;
+}
