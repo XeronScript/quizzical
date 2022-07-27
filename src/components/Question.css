@@ -30,6 +30,34 @@
     cursor: pointer;
 }
 
+.held {
+    background-color: #D6DBF5;
+    border: 2px solid transparent;
+}
+
+.correct-choice-btn {
+    background-color: #94D7A2;
+    border-color: #94D7A2;
+}
+
+.incorrect-choice-btn {
+    background-color: #F8BCBC;
+    border-color: #F8BCBC;
+    color: grey;
+}
+
+.unchecked-choice-btn {
+    background-color: transparent;
+    border-color: darkgrey;
+    color: darkgrey;
+}
+
+.correct-choice-btn:hover,
+.incorrect-choice-btn:hover,
+.unchecked-choice-btn:hover {
+    cursor: auto;
+}
+
 hr {
     width: 60vw;
     border: 0;

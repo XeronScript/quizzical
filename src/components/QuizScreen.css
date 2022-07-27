@@ -27,3 +27,24 @@
 .btn:hover {
     cursor: pointer;
 }
+
+.bottom-bar {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 10px 0 0 0;
+}
+
+.bottom-bar p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.bottom-bar button {
+    margin: 0 0 0 10px;
+    left: 0;
+    transform: translateX(0);
+}
